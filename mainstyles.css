@@ -38,14 +38,7 @@ body {
   background-color: purple;
 }
 
-.notfound {
-  position: absolute;
-  text-align: center;
-  left: 33%;
-  top: 10%;
-}
-
-.imgcontainer {
+.mainbox {
   position: absolute;
   text-align: right;
   top: 20%;
