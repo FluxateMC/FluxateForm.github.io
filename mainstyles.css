@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url('resources/fluxatebg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navitem {
+  float: left;
+}
+
+.navitem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navitem a:hover {
+  background-color: #111;
+}
+.navitem.active {
+  background-color: blueviolet;
+}
+
+.navitem.active a:hover {
+  background-color: purple;
+}
+
+.notfound {
+  position: absolute;
+  text-align: center;
+  left: 33%;
+  top: 10%;
+}
+
+.imgcontainer {
+  position: absolute;
+  text-align: right;
+  top: 20%;
+}
